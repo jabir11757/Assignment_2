@@ -1,6 +1,11 @@
 body {
     max-width: 1200px;
     margin-left: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .header {
@@ -8,6 +13,21 @@ body {
     height: 60vw;
     border-radius: 30px;
     margin: 20px;
+}
+
+/* Trying to set Animation on header button */
+
+.header-button:hover {
+    background-color: rgb(241, 163, 163);
+    color: black;
+    font-size: 20px;
+    height: 4vw;
+    width: 15vw;
+    border-radius: 5px;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .header-controller {
@@ -54,6 +74,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
 
 .header-button a {
@@ -180,13 +201,14 @@ body {
     margin: 15px;
     color: white;
     background-color: red;
+
 }
 
 @media screen and (max-width:576px) {
     .card .card-items-1 {
         height: 50%;
         border-radius: 15px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 900;
         display: flex;
         justify-content: center;
@@ -201,7 +223,7 @@ body {
     height: 20%;
     width: 260px;
     border-radius: 15px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
     display: flex;
     justify-content: center;
@@ -209,6 +231,17 @@ body {
     margin: 15px;
     color: white;
     background-color: red;
+
+}
+
+.card-items-1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-items-2 a {
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width:576px) {
@@ -403,7 +436,7 @@ body {
 }
 
 .footer {
-    height: 100%;
+    height: 400px;
 }
 
 .footer-items {
@@ -419,6 +452,21 @@ body {
     justify-content: space-around;
     margin-top: 50px;
 }
+
+.footer-icons {
+    color: red;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-icons.fa-brands {
+    color: white;
+}
+
 
 @media screen and (max-width:576px) {
     .footer-title {
