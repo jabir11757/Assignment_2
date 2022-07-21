@@ -460,13 +460,21 @@ body {
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
-.footer-icons.fa-brands {
-    color: white;
+.footer-icons.fa-facebook {
+    color: skyblue;
 }
 
+.footer-icons.fa-instagram {
+    color: rebeccapurple;
+}
+
+.footer-icons.fa-youtube {
+    color: red;
+}
 
 @media screen and (max-width:576px) {
     .footer-title {
